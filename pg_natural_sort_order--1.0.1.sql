@@ -2,4 +2,4 @@
 \echo Use "CREATE EXTENSION pg_natural_sort_order" to load this file. \quit
 
 CREATE OR REPLACE FUNCTION natural_sort_order( TEXT, INTEGER ) RETURNS TEXT
-  AS 'pg_natural_sort_order' LANGUAGE C;
+  AS 'pg_natural_sort_order' LANGUAGE C IMMUTABLE;
