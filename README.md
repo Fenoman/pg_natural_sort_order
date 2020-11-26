@@ -1,5 +1,7 @@
 ![alt text](https://github.com/Bjond/pg_natural_sort_order/blob/master/images/bjondhealthlogo-whitegrey.png "Bjönd Inc.")
 
+**There is only one change in this fork - the function is immutable now. Now it can be used in computated fields (PG12).**
+
 # PostgreSQL extension *pg_natural_sort_order*
 =============================================
 
